@@ -23,7 +23,8 @@ saveRDS(rd, "2016Results.rds")
 rd2016 = rd %>% # bonferoni
   group_by(State, Candidate) %>%
   mutate(BF.p = ChiSq.P*n(),
-         F.BF.p = Fit.ChiSq.P*n()) 
+         F.BF.p = Fit.ChiSq.P*n()) %>%
+  ungroup()
 
 saveRDS(rd2016, "2016ResultsBF.rds")
 

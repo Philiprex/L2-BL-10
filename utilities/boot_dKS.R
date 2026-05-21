@@ -53,6 +53,6 @@ bootstrap_dKS = function(oVec, mu, sigma, b=1000){
   dEDF = ecdf(unlist(Dlist))
 
   # empirical probability of original dKS test statistic
-  return(dEDF(oDStat))
+  return(1-dEDF(oDStat))
 
 }

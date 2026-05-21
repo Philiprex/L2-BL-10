@@ -9,6 +9,8 @@ source("../utilities/estWeibullChiSq.R")
 
 elecData = readRDS("relData2020.rds")
 
+set.seed(1234)
+
 for (s in unique(elecData$state_po)){
   print(paste(s, " Start"))
 

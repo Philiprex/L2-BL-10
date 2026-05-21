@@ -14,6 +14,8 @@ ns = c(25,50,100,200)
 mus = seq(1, 10, 1)
 sigmas = seq(0.1, 2, 0.1)
 
+set.seed(1234)
+
 for (n in ns){
   simOutputs = matrix(nrow = length(mus)*length(sigmas), ncol = 3)
   print(nrow(simOutputs))

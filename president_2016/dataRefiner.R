@@ -24,6 +24,6 @@ relDataAbs = allData %>%
   group_by(state, state_postal, county_name, precinct, candidate, candidate_normalized) %>%
   summarise(votes = sum(votes))
 
-redData = rbind(relData, relDataAbs)
+relData = rbind(relData, relDataAbs)
 
 saveRDS(relData, "relData2016.rds")

@@ -9,6 +9,8 @@ source("../utilities/estWeibullChiSq.R")
 
 elecData = readRDS("relData2016.rds")
 
+set.seed(1234)
+
 # for each state-county-candidate we preform L2-BL 10 analysis and add it as one row in a df for the whole election
 for (s in unique(elecData$state_postal)){
   print(paste(s, " Start"))
