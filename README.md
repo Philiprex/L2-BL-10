@@ -26,7 +26,9 @@ The analysis pipeline for a given election:
 
 ```
 .
-├── utilities/                 # Core statistical functions
+├── L2-BL10.pdf                 # accepted draft of the paper
+│
+├── utilities/                  # Core statistical functions
 │   ├── ddweibull.R             # Discrete Weibull density (PMF)
 │   ├── pdweibull.R             # Discrete Weibull CDF
 │   ├── qdweibull.R             # Discrete Weibull quantile function
