@@ -1,6 +1,6 @@
 # L2-BL 10: Last Two Digit Benford's Law Analysis for Election Data
 
-Code for *"A Novel Benford-Based Approach for Detecting Statistical Anomalies in Precinct-Level Election Data"* by Philip Eigen, Steven J. Miller, and Kevin Dayaratna.
+Code for *"A Novel Benford-Based Approach for Detecting Statistical Anomalies in Precinct-Level Election Data"* by Philip Eigen, Steven J. Miller, and Kevin Dayaratna. The work was [originally published](https://doi.org/10.1177/1471082X261457748) in Statistical Modelling on 2026-07-20.
 
 ## Overview
 
